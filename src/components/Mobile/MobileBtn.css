@@ -1,0 +1,17 @@
+.mobileContainer{
+    text-align: center;
+    background-color: lightgreen;
+    margin-bottom: 20px;
+    padding: 20px;
+}
+
+.mobileContainer> button {
+    padding: 10px;
+    background-color: rgb(197, 103, 103);
+    font-size: 15px;
+    font-weight: bold;
+    border: none;
+    color: azure;
+    margin: 15px;
+    border-radius: 5px;
+}

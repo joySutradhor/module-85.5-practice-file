@@ -1,0 +1,9 @@
+
+
+.blog{
+    background-color: lightcyan;
+    padding: 20px;
+}
+article>h2, p{
+    margin-bottom: 20px;
+}

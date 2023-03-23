@@ -1,0 +1,14 @@
+.todo{
+    background-color: lightgreen;
+    padding: 10px;
+    height: 100px;
+}
+
+
+
+.todoList{
+    display: grid;
+    grid-template-columns: repeat(3 , 1fr);
+    grid-gap: 10px;
+    margin: 0px 10px;
+}

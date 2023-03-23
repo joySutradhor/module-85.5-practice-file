@@ -1,0 +1,23 @@
+import React from 'react';
+import "./Blog.css";
+const Article = () => {
+    const blogStyle={
+        color: "white",
+        backgroundColor: "green",
+        padding : "5px",
+        textAlign: "center"
+
+    }
+    return (
+        <div className='singleBlog'>
+            <article className='blog'>
+                <h2 style={blogStyle}>This is Blog Title</h2>
+                <img src="data:image/jpeg;base64,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" alt="" />
+                <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Officiis, deleniti. Deleniti facere laboriosam hic error aspernatur consequatur! Consequuntur, eos modi? Lorem ipsum dolor sit amet consectetur adipisicing elit. Numquam placeat voluptas, alias aspernatur assumenda saepe, ullam debitis laudantium iure sapiente nihil reiciendis facere iusto repellat, illo totam dolores libero! Reiciendis iure saepe molestias sint, dolore, qui provident, sapiente corrupti cumque itaque ut atque omnis eligendi incidunt. Non ex maxime libero autem quod, sed illo ea omnis quidem error blanditiis, culpa odit nesciunt. Natus aliquid tenetur praesentium itaque blanditiis illo, quisquam neque labore quae, perferendis earum reiciendis qui voluptatum error saepe ad enim fuga cum?</p>
+                <p style={{color:"white" , backgroundColor:"green", padding:"5px"}}>Download and use 1000+ Blogging stock photos for free. ✓ Thousands of new images every day ✓ Completely Free to Use ✓ High-quality videos and images from ...</p>
+            </article>
+        </div>
+    );
+};
+
+export default Article;
